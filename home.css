@@ -172,7 +172,10 @@ h2
         font-size: 30px; 
         padding: 10px 5%; 
     }
-
+    #text
+    {
+        font-size: 25px; 
+    }
     .menu {
         font-size: 25px; 
     }
@@ -183,7 +186,6 @@ h2
     }
 
     .content {
-    
         height: auto; 
     }
 }
