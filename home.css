@@ -171,6 +171,7 @@ h2
     h2 {
         font-size: 30px; 
         padding: 10px 5%; 
+        z-index: 2000;
     }
     #text
     {
