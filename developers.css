@@ -1,0 +1,64 @@
+.developers-content {
+    display: grid;
+    grid-template-columns: 20% 50% 30%; 
+    height: calc(100vh - 80px);
+    
+}
+.company
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+    background: linear-gradient(rgb(255, 213, 248), rgb(69, 255, 246), rgb(146, 220, 230));
+    height: calc(100vh - 80px);
+}
+#company-text
+{
+    font-size: 20px;
+    border-left:0;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    object-fit: cover;
+    word-break: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    max-height: calc(100vh - 120px); 
+}
+#games
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+    border-top: 5px solid black;
+}
+
+
+.girl
+{
+    display: flex;
+    border-left: 5px solid black;
+    flex-grow:1;
+
+}
+#girl
+{
+    height: 100%;
+    max-height: 100%;
+}
+@media (max-width: 1000px) {
+    #company-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    #company-text {
+        font-size: 12px; 
+    }
+}
+

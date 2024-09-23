@@ -1,0 +1,55 @@
+.awards-content {
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background: linear-gradient(rgb(170, 255, 236), rgb(219, 175, 255),  rgb(149, 255, 250));
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto; 
+    box-sizing: border-box; 
+}
+.menu {
+    grid-column: 1; 
+    padding: 10px; 
+}
+
+.nominations {
+    height: 100%;
+    width: 100%;
+    font-size: 23px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    flex: 1;
+    word-break: break-word;
+}
+
+.photo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: calc(100vh - 80px);
+    margin: 0;
+    padding: 0;
+
+}
+
+#love { 
+    height: 100%;
+    border-left: 5px solid black;
+}
+
+@media (max-width: 1000px) {
+    .nominations {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    #nominations {
+        font-size: 12px; 
+    }
+}
